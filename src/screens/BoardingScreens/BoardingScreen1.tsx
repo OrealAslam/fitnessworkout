@@ -9,10 +9,14 @@ const btnRatio = btnWidth / 1052;
 const BoardingScreen1 = ({ navigation }: { navigation: any }) => {
   const [option, setoption] = useState('');
 
+  const next = () => {
+    navigation.navigate('BoardingScreen2');
+  }
+
   return (
     <View style={styles.container}>
       <View style={styles.header}>
-        <TouchableOpacity style={styles.btn} onPress={()=>navigation.navigate('BoardingScreen2')}>
+        <TouchableOpacity style={styles.btn} onPress={next}>
           <Text style={styles.btnText}>Skip</Text>
         </TouchableOpacity>
       </View>
@@ -28,7 +32,7 @@ const BoardingScreen1 = ({ navigation }: { navigation: any }) => {
 
       
       <View style={styles.optionContainer}>
-        <OptionComponent setoption={setoption} option={option} />
+        <OptionComponent setoption={setoption} option={option} next={next} />
       </View>
 
     </View>

@@ -8,7 +8,7 @@ const btnRatio = btnWidth / 1280;
 const OptionComponent = (props:any) => {
   return (
     <View style={styles.optionContainer}>
-      <TouchableOpacity style={styles.optionBtn} onPress={() => props.setoption('weight')}>
+      <TouchableOpacity style={styles.optionBtn} onPress={() => {props.setoption('weight'); props.next();}}>
         <Image
           style={styles.optionImg}
           source={
@@ -19,7 +19,7 @@ const OptionComponent = (props:any) => {
         />
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.optionBtn} onPress={() => props.setoption('butt')}>
+      <TouchableOpacity style={styles.optionBtn} onPress={() => {props.setoption('butt');props.next();}}>
         <Image
           style={styles.optionImg}
           source={
@@ -30,7 +30,7 @@ const OptionComponent = (props:any) => {
         />
       </TouchableOpacity>
 
-      <TouchableOpacity style={styles.optionBtn} onPress={() => props.setoption('belly')}>
+      <TouchableOpacity style={styles.optionBtn} onPress={() => {props.setoption('belly');props.next();}}>
         <Image
           style={styles.optionImg}
           source={
@@ -41,7 +41,7 @@ const OptionComponent = (props:any) => {
         />
       </TouchableOpacity>
       
-      <TouchableOpacity style={styles.optionBtn} onPress={() => props.setoption('mucle')}>
+      <TouchableOpacity style={styles.optionBtn} onPress={() => {props.setoption('mucle');props.next();}}>
         <Image
           style={styles.optionImg}
           source={

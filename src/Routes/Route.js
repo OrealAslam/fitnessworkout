@@ -5,6 +5,8 @@ import BoardingScreen2 from '../screens/BoardingScreens/BoardingScreen2';
 import BoardingScreen3 from '../screens/BoardingScreens/BoardingScreen3';
 import BoardingScreen4 from '../screens/BoardingScreens/BoardingScreen4';
 import DashboardScreen from '../screens/Dashboard/DashboardScreen';
+import WorkoutScreen from '../screens/WorkoutScreen';
+import StartScreen from '../screens/StartScreen';
 import MainRoute from './MainRoute';
 
 const Stack = createNativeStackNavigator();
@@ -40,6 +42,16 @@ export default function Route() {
       <Stack.Screen
         name="DashboardScreen"
         component={DashboardScreen}
+        options={{headerShown: false, animationenabled: false}}
+      />
+      <Stack.Screen
+        name="StartScreen"
+        component={StartScreen}
+        options={{headerShown: false, animationenabled: false}}
+      />
+      <Stack.Screen
+        name="WorkoutScreen"
+        component={WorkoutScreen}
         options={{headerShown: false, animationenabled: false}}
       />
     </Stack.Navigator>
