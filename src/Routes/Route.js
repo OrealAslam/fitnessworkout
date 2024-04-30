@@ -39,21 +39,6 @@ export default function Route() {
         component={MainRoute}
         options={{headerShown: false, animationenabled: false}}
       />
-      <Stack.Screen
-        name="DashboardScreen"
-        component={DashboardScreen}
-        options={{headerShown: false, animationenabled: false}}
-      />
-      <Stack.Screen
-        name="StartScreen"
-        component={StartScreen}
-        options={{headerShown: false, animationenabled: false}}
-      />
-      <Stack.Screen
-        name="WorkoutScreen"
-        component={WorkoutScreen}
-        options={{headerShown: false, animationenabled: false}}
-      />
     </Stack.Navigator>
   );
 }

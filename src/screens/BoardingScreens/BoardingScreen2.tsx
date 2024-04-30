@@ -35,27 +35,28 @@ const BoardingScreen2 = ({ navigation }: { navigation: any }) => {
         </View>
 
         <Text style={styles.decText}>Let us know you better to help you boost your work result</Text>
+     
+        <View style={styles.pickerContainer}>
+          <WheelPicker
+            selectedIndex={40}
+            options={weight}
+            onChange={(index) => setSelectedIndex(index)}
+            itemHeight={60}
+            itemTextStyle={{ fontSize: 24, fontWeight: '700', color: 'rgb(255, 122,138)' }}
+            visibleRest={3}
+            selectedIndicatorStyle={{ backgroundColor: 'transparent' }}
+          />
+
+          <WheelPicker
+            selectedIndex={0}
+            options={unit}
+            onChange={(index) => setSelectedIndex(index)}
+            itemHeight={60}
+            itemTextStyle={{ fontSize: 24, fontWeight: '700', color: 'rgb(255, 122,138)' }}
+          />
+        </View>
       </View>
 
-      <View style={styles.pickerContainer}>
-        <WheelPicker
-          selectedIndex={40}
-          options={weight}
-          onChange={(index) => setSelectedIndex(index)}
-          itemHeight={60}
-          itemTextStyle={{ fontSize: 24, fontWeight: '700', color: 'rgb(255, 122,138)' }}
-          visibleRest={3}
-          selectedIndicatorStyle={{ backgroundColor: 'transparent' }}
-        />
-
-        <WheelPicker
-          selectedIndex={0}
-          options={unit}
-          onChange={(index) => setSelectedIndex(index)}
-          itemHeight={60}
-          itemTextStyle={{ fontSize: 24, fontWeight: '700', color: 'rgb(255, 122,138)' }}
-        />
-      </View>
 
       <TouchableOpacity onPress={() => navigation.navigate('BoardingScreen3')}>
         <Image style={styles.nextbtn} source={require('../../assets/boarding/nextbtn.png')} />
@@ -90,10 +91,10 @@ export const styles = StyleSheet.create({
     color: '#000',
   },
   mainContent: {
-    width: width * 0.88,
-    height: '20%',
+    width: width * 0.95,
     paddingHorizontal: 18,
     justifyContent: 'space-between',
+    alignSelf: 'center',
   },
   highlightText: {
     fontSize: 30,
@@ -105,6 +106,7 @@ export const styles = StyleSheet.create({
     fontWeight: '500',
     lineHeight: 25,
     color: '#000',
+    marginTop: 18,
   },
   pickerContainer: {
     flexDirection: 'row',

@@ -1,5 +1,6 @@
 import { View, Text, Image, TouchableOpacity, StyleSheet, Dimensions, ImageBackground } from 'react-native';
 import React from 'react';
+import { set_async_data } from '../../Helper/Helper';
 const { width, height } = Dimensions.get('window');
 const DESC_IMG = width - 80;
 const DESC_IMG_RATIO = DESC_IMG / 912;
@@ -11,15 +12,16 @@ const CHART = width - 140;
 const CHART_RATIO = CHART / 672;
 
 const BoardingScreen4 = ({ navigation }: { navigation: any }) => {
+
+  const navigatetodashboard = async () => {
+    await set_async_data('token', 'onboard');
+    navigation.navigate('MainRoute');
+  }
   return (
     <View style={{ flex: 1, backgroundColor: '#fff' }}>
       <View style={styles.header}>
-        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('DashboardScreen')}>
+        <TouchableOpacity style={styles.btn} onPress={() => navigation.navigate('BoardingScreen3')}>
           <Image style={styles.backbtn} source={require('../../assets/boarding/back.png')} />
-        </TouchableOpacity>
-
-        <TouchableOpacity style={styles.btn}>
-          <Text style={styles.btnText}>Skip</Text>
         </TouchableOpacity>
       </View>
 
@@ -33,7 +35,7 @@ const BoardingScreen4 = ({ navigation }: { navigation: any }) => {
         </View>
       </View>
 
-      <TouchableOpacity onPress={() => navigation.navigate('DashboardScreen')}>
+      <TouchableOpacity onPress={navigatetodashboard}>
         <Image style={styles.nextbtn} source={require('../../assets/boarding/nextbtn.png')} />
       </TouchableOpacity>
     </View>
@@ -62,7 +64,7 @@ export const styles = StyleSheet.create({
   },
   mainContent: {
     width: width,
-    height: height * 0.75,
+    height: height * 0.80,
     // backgroundColor: 'red',
     flexDirection: 'column',
     justifyContent: 'space-around',

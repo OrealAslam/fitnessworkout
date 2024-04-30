@@ -25,7 +25,7 @@ const BANNER_TO_RATIO = BANNER_TO_IMG / 1312;
 const DashboardScreen = ({navigation}: {navigation: any}) => {
   const [menu, setmenu] = useState(false);
   return (
-    <View style={{flex: 1, backgroundColor: '#fff'}}>
+    <View style={{flex: 1, backgroundColor: '#FFF3F5'}}>
       <View style={styles.header}>
         <TouchableOpacity
           style={styles.btn}
