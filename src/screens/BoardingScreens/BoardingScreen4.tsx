@@ -33,22 +33,23 @@ const BoardingScreen4 = ({ navigation }: { navigation: any }) => {
           <Text style={styles.bmiText}>25.6 BMI</Text>
           <Text style={styles.bmiDesc}>Current BMI - Overweight</Text>
         </View>
+      
+      
+        <TouchableOpacity onPress={navigatetodashboard}>
+          <Image style={styles.nextbtn} source={require('../../assets/boarding/nextbtn.png')} />
+        </TouchableOpacity>
       </View>
 
-      <TouchableOpacity onPress={navigatetodashboard}>
-        <Image style={styles.nextbtn} source={require('../../assets/boarding/nextbtn.png')} />
-      </TouchableOpacity>
     </View>
   );
 };
 export const styles = StyleSheet.create({
   header: {
     width: width,
-    height: '8%',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 10
+    padding: 10
   },
   backbtn: {
     width: 24,

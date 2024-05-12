@@ -60,7 +60,7 @@ const DashboardScreen = ({navigation}: {navigation: any}) => {
 
         <View style={styles.categoryContainer}>
           <Text style={styles.catheading}>Body focus</Text>
-          <Category />
+          <Category navigation={navigation}/>
         </View>
 
         {menu && (<SideMenu />)}

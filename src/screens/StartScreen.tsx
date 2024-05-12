@@ -10,6 +10,7 @@ import {
 } from 'react-native';
 import { useIsFocused } from '@react-navigation/native';
 import React, {useState, useEffect} from 'react';
+import {dayArr} from '../Helper/Helper';
 const {width} = Dimensions.get('window');
 
 const BANNER_IMG_WIDTH = width - 35;
@@ -17,8 +18,6 @@ const BANNER_IMG_RATIO = BANNER_IMG_WIDTH / 1312;
 
 const OPT_WIDTH = width - 35;
 const OPT_RATIO = BANNER_IMG_WIDTH / 1312;
-
-const dayArr = ['day1', 'day2', 'day3', 'day4', 'day5'];
 
 const StartScreen = ({navigation}: {navigation: any}) => {
   const [option, setoption] = useState('');
@@ -77,13 +76,12 @@ const StartScreen = ({navigation}: {navigation: any}) => {
           />
         </TouchableOpacity>
       </View>
+      <Image
+        style={styles.bannerImg}
+        source={require('../assets/images/dashboard_banner.png')}
+      />
 
       <ScrollView showsVerticalScrollIndicator={false}>
-        <Image
-          style={styles.bannerImg}
-          source={require('../assets/images/dashboard_banner.png')}
-        />
-
         <View style={styles.optionContainer}>{options()}</View>
       </ScrollView>
     </View>

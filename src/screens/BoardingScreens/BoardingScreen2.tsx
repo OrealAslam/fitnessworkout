@@ -55,13 +55,11 @@ const BoardingScreen2 = ({ navigation }: { navigation: any }) => {
             itemTextStyle={{ fontSize: 24, fontWeight: '700', color: 'rgb(255, 122,138)' }}
           />
         </View>
+     
+        <TouchableOpacity onPress={() => navigation.navigate('BoardingScreen3')}>
+          <Image style={styles.nextbtn} source={require('../../assets/boarding/nextbtn.png')} />
+        </TouchableOpacity>
       </View>
-
-
-      <TouchableOpacity onPress={() => navigation.navigate('BoardingScreen3')}>
-        <Image style={styles.nextbtn} source={require('../../assets/boarding/nextbtn.png')} />
-      </TouchableOpacity>
-
     </ImageBackground>
   );
 };
@@ -69,14 +67,14 @@ export const styles = StyleSheet.create({
   bg: {
     width: BG_IMG_IDTH,
     height: 3200 * BG_IMG_RATIO,
+    flex: 1,
   },
   header: {
     width: width,
-    height: '8%',
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 10
+    padding: 10,
   },
   backbtn: {
     width: 24,

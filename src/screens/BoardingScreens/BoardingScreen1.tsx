@@ -22,7 +22,7 @@ const BoardingScreen1 = ({ navigation }: { navigation: any }) => {
       </View>
 
       <View style={styles.mainContent}>
-        <View>
+        <View style={{marginVertical: 10}}>
           <Text style={styles.highlightText}>Choose</Text>     
           <Text style={styles.highlightText}>Your Plan</Text> 
         </View>
@@ -30,11 +30,10 @@ const BoardingScreen1 = ({ navigation }: { navigation: any }) => {
         <Text style={styles.decText}>Loose weight with the plan that suits you best</Text> 
       </View>
 
-      
+
       <View style={styles.optionContainer}>
         <OptionComponent setoption={setoption} option={option} next={next} />
       </View>
-
     </View>
   );
 };
@@ -46,10 +45,9 @@ export const styles = StyleSheet.create({
   },
   header: {
     width: width,
-    height: '8%',
     justifyContent: 'center',
     alignItems: 'flex-end',
-    paddingHorizontal: 10
+    padding: 10,
   },
   btn: {
     padding: 10,
@@ -61,9 +59,9 @@ export const styles = StyleSheet.create({
   },
   mainContent: {
     width: width * 0.78,
-    height: '20%',
     paddingHorizontal: 18,
     justifyContent: 'space-between',
+    marginBottom: 15,
   },
   highlightText: {
     fontSize: 30,
@@ -74,9 +72,9 @@ export const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '500',
     color: '#000',
+    marginVertical: 10
   },
   optionContainer: {
-    flex: 1,
     justifyContent: 'flex-end',
   },
 });

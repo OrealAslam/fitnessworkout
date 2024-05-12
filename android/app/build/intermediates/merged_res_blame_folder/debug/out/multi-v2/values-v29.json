@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.fitnessworkout.app-mergeDebugResources-24:/values-v29/values-v29.xml",
+            "outputFile": "com.fitnessworkout.app-mergeDebugResources-38:/values-v29/values-v29.xml",
             "map": [
                 {
                     "source": "C:\\Users\\mrl\\.gradle\\caches\\transforms-3\\bb2a115026a2a10cc4ff4e95eb336fd5\\transformed\\jetified-core-splashscreen-1.0.0-beta01\\res\\values-v29\\values-v29.xml",

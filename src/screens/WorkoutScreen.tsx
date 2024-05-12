@@ -53,15 +53,9 @@ const WorkoutScreen = ({navigation}: {navigation: any}) => {
             style={styles.bannerImg}
             source={require('../assets/images/burningfat.png')}
         />
-
-        <View style={styles.categoryContainer}>
-            <Text style={styles.catheading}>Body focus</Text>
-            <Category />
-        </View>
-
         <View style={styles.categoryContainer}>
             <Text style={styles.catheading}>Random workout</Text>
-            <Category />
+            <Category navigation={navigation}/>
         </View>
       </ScrollView>
     </View>

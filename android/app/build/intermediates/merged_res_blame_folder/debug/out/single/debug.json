@@ -1,86 +1,86 @@
 [
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-hdpi_group_19.png.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-hdpi/group_19.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable_background_image.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/drawable/background_image.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-ldpi_group_19.png.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-ldpi/group_19.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/layout_launch_screen.xml.flat",
+        "source": "com.fitnessworkout.app-main-42:/layout/launch_screen.xml"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable_rn_edit_text_material.xml.flat",
+        "source": "com.fitnessworkout.app-main-42:/drawable/rn_edit_text_material.xml"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-xxxhdpi_group_19.png.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-xxxhdpi/group_19.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-xxhdpi_group_19.png.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-xxhdpi/group_19.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-anydpi-v24_group_19.xml.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-anydpi-v24/group_19.xml"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-anydpi-v24_group_19.xml.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-anydpi-v24/group_19.xml"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-mdpi_group_19.png.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-mdpi/group_19.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable_splash_image_front.xml.flat",
-        "source": "com.fitnessworkout.app-main-28:/drawable/splash_image_front.xml"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-xxxhdpi_group_19.png.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-xxxhdpi/group_19.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable_background_image.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/drawable/background_image.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable_splash_image_front.xml.flat",
+        "source": "com.fitnessworkout.app-main-42:/drawable/splash_image_front.xml"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/layout_launch_screen.xml.flat",
-        "source": "com.fitnessworkout.app-main-28:/layout/launch_screen.xml"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-xhdpi_group_19.png.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-xhdpi/group_19.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-mdpi_group_19.png.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-mdpi/group_19.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-hdpi_group_19.png.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-hdpi/group_19.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable_rn_edit_text_material.xml.flat",
-        "source": "com.fitnessworkout.app-main-28:/drawable/rn_edit_text_material.xml"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-xxhdpi_group_19.png.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-xxhdpi/group_19.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-mdpi/ic_launcher.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/drawable-ldpi_group_19.png.flat",
+        "source": "com.fitnessworkout.app-pngs-35:/drawable-ldpi/group_19.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/drawable-xhdpi_group_19.png.flat",
-        "source": "com.fitnessworkout.app-pngs-21:/drawable-xhdpi/group_19.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "com.fitnessworkout.app-merged_res-26:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "com.fitnessworkout.app-main-28:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.fitnessworkout.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.fitnessworkout.app-main-42:/mipmap-xxhdpi/ic_launcher.png"
     }
 ]
